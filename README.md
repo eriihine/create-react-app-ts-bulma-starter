@@ -1,8 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# `create-react-app-ts-bulma-starter`
 
-## Available Scripts
+## `Description`
 
-In the project directory, you can run:
+This project holds an template made with bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Following direct dependencies are included:
+
+- React (16.x.x)
+- Typescript
+- Bulma CSS-ONLY UI framework
+- Routing: react-router
+- Localization: react-intl
+
+Following dev dependencies are included:
+
+- Jest for testing
+- Prettier + eslint for better formatted code
+- husky and lint-staged to ensure unformatted code is committed to git
+
+## `UI components`
+
+#### `Done`
+
+- [x] include bulma sass files and overrides
+- [x] basic bulma navbar integration
+- [x] UI language selection (react-intl)
+- [x] basic routing with react-router
+
+#### `ToDo`
+
+- [ ] accessability improvements e.g. react-helm + code analysis
+- [ ] immutableJs for immutability
+- [ ] state management library (e.g. MobX, Redux)
+- [ ] improve SEO support + needed addons
+- [ ] add missing unit tests (jest snapshot tests)
 
 ### `yarn start`
 

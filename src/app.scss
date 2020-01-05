@@ -13,8 +13,6 @@ $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
 $link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
 
 // bulma component variable overrides
 $body-background-color: $beige-lighter;
@@ -25,10 +23,8 @@ $input-shadow: none;
 // import needed components from bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 @import '../node_modules/bulma/sass/base/_all.sass';
-@import '../node_modules/bulma/sass/elements/button.sass';
-@import '../node_modules/bulma/sass/elements/container.sass';
-@import '../node_modules/bulma/sass/elements/form.sass';
-@import '../node_modules/bulma/sass/elements/title.sass';
-@import '../node_modules/bulma/sass/components/navbar.sass';
-@import '../node_modules/bulma/sass/layout/hero.sass';
-@import '../node_modules/bulma/sass/layout/section.sass';
+@import '../node_modules/bulma/sass/elements/_all.sass';
+@import '../node_modules/bulma/sass/components/_all.sass';
+@import '../node_modules/bulma/sass/layout/_all.sass';
+@import '../node_modules/bulma/sass/form/_all.sass';
+@import '../node_modules/bulma/sass/grid/_all.sass';
