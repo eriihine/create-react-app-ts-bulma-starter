@@ -6,6 +6,7 @@ interface Props {
 }
 
 const Page2: React.FC<Props> = (props: Props) => (
-  <div className="section">{props.name ? props.name : 'Page2'}</div>
+  <section className="section">{props.name ? props.name : 'Page2'}</section>
 );
+
 export default Page2;

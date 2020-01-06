@@ -5,5 +5,11 @@
   "Text.Page1": "Page1",
   "Text.Page2": "Page2",
   "Text.Subtitle": "Subtitle",
-  "Text.Title": "Title"
+  "Text.Title": "Title",
+  "Text.HeroTitle": "Hero title",
+  "Text.LoremIpsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ante eros.",
+  "Text.Button1": "Button one",
+  "Text.Button2": "Button two",
+  "Text.Card": "Card #{index}",
+  "Text.ReadMore": "Read more"
 }

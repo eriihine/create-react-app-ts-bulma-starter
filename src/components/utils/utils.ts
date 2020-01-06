@@ -6,5 +6,5 @@ import { IntlShape } from 'react-intl';
  * @param id translation message key
  * @param intl react-intl intl object
  */
-export const t = (id: string, intl: IntlShape): string =>
-  intl.formatMessage({ id });
+export const t = (id: string, intl: IntlShape, values?: {}): string =>
+  intl.formatMessage({ id }, values);

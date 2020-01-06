@@ -1,11 +1,18 @@
 import React from 'react';
+import Hero from './hero';
+import { useIntl } from 'react-intl';
+import Cards from './cards';
+
 import './page1.scss';
 
-interface Props {
-  name?: string;
-}
+const Page1: React.FC = () => {
+  const intl = useIntl();
+  return (
+    <section className="hero is-light is-bold">
+      <Hero titleId="Text.HeroTitle" intl={intl} />
+      <Cards intl={intl} />
+    </section>
+  );
+};
 
-const Page1: React.FC<Props> = (props: Props) => (
-  <div className="section">{props.name ? props.name : 'Page1'}</div>
-);
 export default Page1;

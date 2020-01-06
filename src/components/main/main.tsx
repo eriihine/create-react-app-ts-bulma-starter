@@ -20,7 +20,7 @@ const Main: FC<Props> = (props: Props) => {
   return (
     <>
       <Router>
-        <section className="columns has-background-lighter">
+        <section className="main-wrapper has-background-lighter">
           <Navbar locale={props.locale} setLocale={props.setLocale} />
           <Switch>
             <Route path="/page1">
