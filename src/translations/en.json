@@ -11,5 +11,7 @@
   "Text.Button1": "Button one",
   "Text.Button2": "Button two",
   "Text.Card": "Card #{index}",
-  "Text.ReadMore": "Read more"
+  "Text.ReadMore": "Read more",
+  "Text.HeroSubtitle": "Subtitle #{index}",
+  "Text.HeroTitle#": "Hero title #{index}"
 }

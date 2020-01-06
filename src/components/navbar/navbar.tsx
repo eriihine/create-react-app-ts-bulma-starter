@@ -43,7 +43,7 @@ const Navbar: FC<Props> = ({ locale, setLocale }: Props) => {
 
   return (
     <nav
-      className="navbar is-primary"
+      className="navbar is-fixed-top is-primary"
       role="navigation"
       aria-label={t('AriaLabel.MainNavigation', intl)}
     >

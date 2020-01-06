@@ -10,5 +10,8 @@
   "Text.LoremIpsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ante eros.",
   "Text.Button1": "Nappi 1",
   "Text.Button2": "Nappi 2",
-  "Text.ReadMore": "Lue lisää"
+  "Text.Card": "Kortti #{index}",
+  "Text.ReadMore": "Lue lisää",
+  "Text.HeroSubtitle": "Alaotsikko #{index}",
+  "Text.HeroTitle#": "Heron otsikko #{index}"
 }

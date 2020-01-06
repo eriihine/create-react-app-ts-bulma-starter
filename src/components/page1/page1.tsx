@@ -3,8 +3,6 @@ import Hero from './hero';
 import { useIntl } from 'react-intl';
 import Cards from './cards';
 
-import './page1.scss';
-
 const Page1: React.FC = () => {
   const intl = useIntl();
   return (
