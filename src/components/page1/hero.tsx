@@ -15,7 +15,7 @@ const Hero: FC<Props> = ({ titleId, intl }: Props) => {
           <div className="columns">
             <div className="column">
               <figure className="image is-2by1">
-                <img src="https://dummyimage.com/800x400" />
+                <img src="https://dummyimage.com/800x400" alt="placeholder" />
               </figure>
             </div>
             <div className="column">

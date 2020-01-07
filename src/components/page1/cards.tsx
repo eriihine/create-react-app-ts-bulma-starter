@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import { IntlShape } from 'react-intl';
-import { t } from '../utils/utils';
 import Card from './card';
 
 interface Props {

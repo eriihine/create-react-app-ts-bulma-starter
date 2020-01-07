@@ -22,7 +22,7 @@ const Card: FC<Props> = ({ intl, index, date }: Props) => {
           <p className="card-text">{t('Text.LoremIpsum', intl)}</p>
         </div>
         <footer className="card-footer">
-          <a href="#" className="card-footer-item">
+          <a href="#0" className="card-footer-item">
             {t('Text.ReadMore', intl)}
           </a>
         </footer>
